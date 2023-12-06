@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Kanit:wght@300&family=Lobster&family=Nosifer&family=Pacifico&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+*{
+margin:0;
+padding:0;
+outline: none;
+text-decoration: none;
+}
+
+body {
+font-family: Trebuchet MS, Helvetica;
+font-weight:400;
+font-size: 16px;
+color: #000;
+background-color: #fff;
+min-width: 320px;
+}
+img{
+max-width: 100%;
+height: auto;
+}
+ /*логотип*/
+#navbar{
+position: fixed;
+z-index: 100;
+width:100%;
+background: #fff;
+box-shadow:0 4px 10px rgba(0, 0, 0, .1);
+}
+#container{
+padding-left: 6%;
+padding-right: 6%;
+}
+.navbar-brand {
+margin-left: 30px;
+font-weight:700;
+font-size: 90px;
+opacity: 0.9;
+}
+.navbar-brand h{
+font-size: 25px;
+font-family: Trebuchet MS;
+}
+.navbar-brand h{
+color: #000;
+transition: all 0.3s ease-in-out;
+}
+.navbar-brand h:hover {
+color: coral;
+}
+.navbar-brand-icon {
+width: 50px;
+transition: all 0.3s ease-in-out;
+}
+.navbar-brand-icon:hover {
+width: 70px;
+}
+
+/*основное меню*/
+#navbar-menu li{
+}
+#navbar-menu li a{
+color: #000;
+font-family: Helvetica;
+opacity: 0.6;
+transition: all 0.3s ease-in-out;
+text-align: center;
+}
+#navbar-menu li a:hover {
+opacity: 1;
+}
+#index {
+text-decoration: underline;
+}
+#navbar-menu li:hover > ul{
+display: initial;
+}
+/*личный кабинет*/
+#icon{
+opacity: 0.8;
+transition: all 0.3s ease-in-out;
+}
+#icon:hover {
+opacity: 1;
+}
+#icon li{
+color: #000;
+font-family: Helvetica;
+opacity: 0.6;
+transition: all 0.3s ease-in-out;
+}
+#icon li:hover {
+opacity: 1;
+}
+#icon li:hover > ul{
+display: initial;
+}
+.dropdown-menu{
+right:0;
+left: auto;
+}
+
+/*заголовок1*/
+.name1{
+padding-top: 100px;
+text-align: center;
+}
+
+/*карусель*/
+#my-carousel{
+padding: 0;
+}
+#my-carousel div{
+display: flex;
+max-height: 500px;
+}
+#my-carousel div img{
+object-fit: cover;
+}
+#text{
+color: black;
+}
+
+.name2{
+padding-top: 60px;
+text-align: center;
+}
+
+/*каталог*/
+.catalog1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card1{
+  padding: 40px;
+}
+.card2{
+  padding: 40px;
+}
+
+
+
+/*футер*/
+footer{
+    position: relative;/*относительное позиционирование*/
+    width: 100%;/*на всю ширину*/
+    padding: 20px 50px;/*поля для контента*/
+    background: #F5F5F5;/*цвет футера*/
+    display: flex;
+    justify-content: center;/*в центре по горизонтали*/
+    align-items: center;/*в центре по вертикали*/
+    flex-direction: column;
+    margin-top: 100px;/*отступ сверху*/
+}
+footer .foot{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.social,
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;/*разрешен перенос на новую строку*/
+}
+.social li,
+.menu li{
+    list-style: none;/*удалить черные маркеры*/
+}
+.social li a {
+    width: 70px;/*размер иконок*/
+    font-size: 2em;
+     color: #000;
+    margin: 0 10px;
+    display: inline-block;/*отображать как строчно-блочный элемент*/
+    transition: all 0.3s ease-in-out;;/*плавный переход*/
+}
+.social li a:hover {
+color: coral;
+}
+.menu li a {
+    font-size: 1.2em;/*размер ссылок меню*/
+    color: #000;/*цвет ссылок меню*/
+    opacity: 0.6;/*значение прозрачности*/
+    margin: 0 15px;
+    text-decoration: none;/*ссылка без подчеркивания*/
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+.menu li a:hover {
+    opacity: 1;
+}
+footer p {
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
